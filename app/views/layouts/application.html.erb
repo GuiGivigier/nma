@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abc</title>
+	<%= csrf_meta_tags %>
+
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<a class="navbar-brand" href="#"><%= image_tag("logo.png", :alt => "rss feed", :height => "26" ) %></a>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="nav navbar-nav ml-auto">
+				<li class="navnav-item active">
+					<a class="nav-link" href="#"> Página inicial <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item ">
+     <a class="nav-link " href="#">Features</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="#">Pricing</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="#">Blog</a>
+    </li>
+    <li class="nav-item">
+     <a class="btn btn-primary" href="#">Sign in</a>
+    </li>
+   </ul>
+  </div>
+ </nav>
+
+ <div id="stage">
+  <div id="stage-caption">
+  </div>
+ </div>
+
+ <section id="feature-one">
+	 <div class="container">
+    <div class="row">
+     <div class="feature-content">
+      <div class="col-lg-12 col-lg-offset-2">
+ 			<div class="centralizar">
+ 				<div class="row">
+ 	       <div class="col-lg-4">
+ 	        <ul>
+ 	         <h2>400 Mil</h1>
+ 	         <h6>Investidos em Campanhas no AdWords</h6>
+ 	        </ul>
+ 	       </div>
+ 	       <div class="col-lg-4">
+ 					 <ul>
+ 	          <h1>12 Milhões</h1>
+ 	          <h6>Faturados em um ano</h6>
+ 	         </ul>
+ 	       </div>
+ 				 <div class="col-lg-4">
+ 					 <ul>
+ 	 				 <h1>+137%</h1>
+ 	 				 <h6>Aumento Médio de ROI nas Campanhas</h6>
+ 	 				</ul>
+ 				 </div>
+ 			 </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+ </section>
+
+
+ <section id="feature-two" class="feature-dark">
+  <div class="container">
+   <div class="row">
+    <div class="feature-content">
+     <div class="col-lg-6 feature-caption">
+      <h6>nma - Google Adwords</h6>
+      <h2>Você paga somente pelos resultados.</h2>
+			<h3 class="branco">Quando não há acessos, não há cobrança.</h3>
+      <p>A inscrição no Google AdWords é gratuita. Você paga somente quando alguém clicar no anúncio para acessar seu site ou ligar para sua empresa. Ou seja, somente quando sua publicidade funciona.</p>
+			<h3 class="branco">Comece com qualquer orçamento.</h3>
+			<p> Você decide quanto quer investir. Basta começar com um orçamento diário confortável para você e ajustá-lo quando desejar. </p>
+     </div>
+     <div class="col-lg-6 text-sm-center hidden-md-down">
+
+      <!-- screenshot: http://www.staggeringbeauty.com/ -->
+
+      <%= image_tag("iphone-1.png", :alt => "iphone") %>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section id="feature-five" class="feature-full">
+ 	<div class="container">
+ 	 <div class="row">
+
+ 		<div class="feature-content">
+ 		 <div class="col-lg-6">
+ 			<iframe width="100%" height="315" src="https://www.youtube.com/embed/336g_dD0ioU" frameborder="0" allowfullscreen></iframe>
+ 		 </div>
+ 		 <div class="col-lg-5 col-lg-offset-1">
+ 			<h6>Assista!</h6>
+ 			<h2>Soluções da Google para o seu negócio</h2>
+ 			<p class="lead">Seja encontrado por clientes no exato momento em que eles pesquisarem no Google pelo que você oferece. Além disso, pague somente quando eles clicarem para visitar seu site ou ligarem para sua empresa.</p>
+ 		 </div>
+ 		</div>
+ 	 </div>
+  </div>
+ </section>
+
+
+  <section id="feature-two" class="feature-dark">
+  <div class="container">
+   <div class="row">
+    <div class="feature-content">
+     <div class="col-lg-6 hidden-md-down">
+
+      <!-- screenshot: http://www.trypap.com/ -->
+      <%= image_tag("macbook.png", :alt => "macbook") %>
+     </div>
+     <div class="col-lg-5 col-lg-offset-12">
+      <h6>nma - Google Adwords</h6>
+      <h2>Estamos aqui para ajudar. Ligue hoje mesmo para estruturar e otimizar uma conta.</h2>
+      <p class="lead">Nossa equipe de especialistas do Google AdWords irá configurar suas primeiras campanhas e trabalhará com você para estrutura e otimizar sua conta buscando o caminho certo para o seu sucesso</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+
+	<section id="feature-one">
+	 <div class="container">
+	  <div class="row">
+	 	<div class="feature-content">
+	 	 <div class="col-lg-12 col-lg-offset-2">
+	 	 <div class="centralizar">
+	 		 <div class="row">
+	 			<div class="col-lg-4">
+	 			 <ul>
+	 				<h2>Leonardo Trisciuzzi</h2>
+	 				<h6>Fundador da NMA,engenheiro de 29 anos formado pela UFRJ e especialista em Adwords.</h6>
+	 			 </ul>
+	 			</div>
+	 			<div class="col-lg-4">
+	 				<ul>
+						<h2>Fale Conosco!</h2>
+						<h6>adtrisciuzzi@gmail.com</h6>
+						<h6>givigier.nma@gmail.com</h6>
+	 				</ul>
+	 			</div>
+	 			<div class="col-lg-4">
+	 				<ul>
+	 				<h2>Guilherme Givigier</h2>
+	 				<h6>Engenheiro da UERJ, 24 anos e especialista em Adwords.</h6>
+	 			 </ul>
+	 			</div>
+	 		</div>
+	 		</div>
+	 	 </div>
+	 	</div>
+	  </div>
+	 </div>
+ </section>
+
+
+ <footer id="main-footer">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-6">
+     &copy; 2016 Startup.logo is not a real thing. If it is, this site was not meant to be a mockery of it. <br>
+     Coded by <a href="http://bradhussey.ca/">Brad</a>
+    </div>
+    <div class="col-md-2">
+     <h6>Our product</h6>
+     <ul class="list-unstyled">
+      <li><a href="">Features</a></li>
+      <li><a href="">Solutions</a></li>
+      <li><a href="">Plans</a></li>
+      <li><a href="">Sign in</a></li>
+     </ul>
+    </div>
+    <div class="col-md-2">
+     <h6>Our team</h6>
+     <ul class="list-unstyled">
+      <li><a href="">About</a></li>
+      <li><a href="">Highlights</a></li>
+      <li><a href="">Investors</a></li>
+      <li><a href="">Partners</a></li>
+     </ul>
+    </div>
+    <div class="col-md-2">
+     <h6>Other things</h6>
+     <ul class="list-unstyled">
+      <li><a href="">Jobs</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">FAQ</a></li>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </footer>
+</body>
+</html>
